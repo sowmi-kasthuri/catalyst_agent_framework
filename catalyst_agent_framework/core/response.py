@@ -11,5 +11,5 @@ class Message:
 @dataclass
 class AgentResponse:
     output: str
-    steps: str
-    metadata: str
+    steps: list
+    metadata: dict
