@@ -8,7 +8,7 @@ class TaskAgent(BaseAgent):
         self.user(input_text)
 
         return AgentResponse(
-            output="",
+            output=f"Received: {input_text}",
             steps=[m.as_dict() for m in self.history],
             metadata={}
         )
