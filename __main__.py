@@ -1,0 +1,4 @@
+from catalyst_agent_framework.cli.run import main
+
+if __name__ == "__main__":
+    main()
