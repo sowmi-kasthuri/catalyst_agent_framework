@@ -1,0 +1,8 @@
+{
+  "task": {
+    "class": "TaskAgent",
+    "module": "catalyst_agent_framework.agents.task_agent",
+    "description": "Basic task execution agent",
+    "enabled": true
+  }
+}
