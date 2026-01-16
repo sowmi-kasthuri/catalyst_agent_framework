@@ -1,3 +1,7 @@
+# Status: Implemented but inactive
+# Used for future provider demos or extensions
+
+
 from ..core.llm_engine import LLMEngine
 
 class LLaMAEngine(LLMEngine):
