@@ -12,3 +12,6 @@ __pycache__/
 # Mac/Windows clutter
 .DS_Store
 Thumbs.db
+
+# environment file
+.env
