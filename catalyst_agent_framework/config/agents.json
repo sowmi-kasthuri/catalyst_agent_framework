@@ -4,5 +4,11 @@
     "module": "catalyst_agent_framework.agents.task_agent",
     "description": "Basic task execution agent",
     "enabled": true
+  },
+  "travel": {
+    "class": "TravelAgent",
+    "module": "catalyst_agent_framework.agents.travel_agent",
+    "description": "Travel agent",
+    "enabled": true
   }
 }
