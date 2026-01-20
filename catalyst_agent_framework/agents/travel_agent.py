@@ -16,15 +16,33 @@ You are a Travel Planning Agent.
 User input:
 {input_text}
 
-Create a practical travel plan with the following sections:
-1. Destination or nearby cluster
-2. Suggested duration
-3. High-level itinerary (Day 1–Day N)
-4. Estimated cost with assumptions
-5. 2–3 alternative options
-6. Medical or special-needs notes (if applicable)
+Create a practical travel plan with CLEAR, LABELED sections using the exact headings below.
+Keep each section concise.
 
-Do not include bookings or real-time prices.
+## Destination / Cluster
+- One primary destination or a small cluster on the same theme
+
+## Suggested Duration
+- Days / nights with brief rationale
+
+## High-Level Itinerary
+- Day 1 to Day N (bullet points)
+
+## Estimated Cost (Assumptions)
+- Travel
+- Stay
+- Local transport
+- Buffer
+
+## Alternatives
+- Option A (cheaper)
+- Option B (more comfortable)
+- Option C (closer / farther)
+
+## Medical / Special Needs Notes
+- Include only if applicable
+
+Do NOT include bookings or real-time prices.
 """
 
         output = engine.generate(prompt)
