@@ -10,5 +10,11 @@
     "module": "catalyst_agent_framework.agents.travel_agent",
     "description": "Travel agent",
     "enabled": true
+  },
+  "research": {
+    "class": "ResearchAgent",
+    "module": "catalyst_agent_framework.agents.research_agent",
+    "description": "Research agent",
+    "enabled": true
   }
 }
