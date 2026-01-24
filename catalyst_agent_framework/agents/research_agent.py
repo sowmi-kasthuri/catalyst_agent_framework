@@ -46,6 +46,8 @@ Use the exact section headings below.
 - 3–5 questions worth exploring next
 
 Do not include citations, links, or browsing claims.
+
+Add this disclaimer - This analysis is a synthesized perspective for decision support, not an authoritative or exhaustive source.
 """
 
         # Generate response
