@@ -16,5 +16,11 @@
     "module": "catalyst_agent_framework.agents.research_agent",
     "description": "Research agent",
     "enabled": true
+  },
+  "release_quality": {
+    "class": "ReleaseQualityAgent",
+    "module": "catalyst_agent_framework.agents.release_quality_agent",
+    "description": "Release Quality agent",
+    "enabled": true
   }
 }
