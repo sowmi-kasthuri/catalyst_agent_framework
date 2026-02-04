@@ -50,6 +50,8 @@ class ReleaseQualityAgent(BaseAgent):
     Do not block releases.
     Do not modify code.
     Do not claim certainty.
+
+    This assessment is advisory and intended to support human release decisions, not replace them.
     """
 
         output = engine.generate(prompt)
